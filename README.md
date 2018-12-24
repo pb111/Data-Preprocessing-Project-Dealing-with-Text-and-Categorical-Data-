@@ -1,6 +1,6 @@
 # Data-Preprocessing-Project
 
-# Dealing-with-Text-and-Categorical-Data-
+# Dealing-with-Text-and-Categorical-Data
 
 
 In this project, I discuss various data preprocessing techniques to deal with text and categorical data. The contents of this project are categorized into various sections which are listed below:-
