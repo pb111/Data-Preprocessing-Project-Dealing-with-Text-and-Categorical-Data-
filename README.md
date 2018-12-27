@@ -71,25 +71,25 @@ We can divide categorical data into four types. These are **nominal**, **ordinal
 
 ### Nominal variable
 
-A categorical variable is also called a nominal variable when it has two or more categories. It is mutual exclusive, but not ordered variable. There is no ordering associated with this type of variable. Nominal scales are used for labelling variables without any quantitative value. For example, gender is a categorical variable having two categories - male and female, and there is no intrinsic ordering to the categories. Hair colour is also a categorical variable having a number of categories - black, blonde, brown, brunette, red, etc. and there is no agreed way to order these from highest to lowest. If the variable has a clear ordering, then that variable would be an ordinal variable, as described below.
+A categorical variable is also called a **nominal variable** when it has two or more categories. It is mutual exclusive, but not ordered variable. There is no ordering associated with this type of variable. Nominal scales are used for labelling variables without any quantitative value. For example, gender is a categorical variable having two categories - male and female, and there is no intrinsic ordering to the categories. Hair colour is also a categorical variable having a number of categories - black, blonde, brown, brunette, red, etc. and there is no agreed way to order these from highest to lowest. If the variable has a clear ordering, then that variable would be an ordinal variable, as described below.
 
 
 ### Ordinal variable
 
 
-In ordinal variables, there is a clear ordering of the variables. Here the order matters but not the difference between values. The order of the values is important and significant. For example, suppose we have a variable economic status with three categories - low, medium and high. In this example, we classify people into three categories. Also, we order the categories as low, medium and high. So, the categories express an order of measurement. Ordinal scales are measures of non-numeric concepts like satisfaction and happiness. It is easy to remember because it sounds like ordering into different categories. If these categories were equally spaced, then that variable would be an interval variable.
+In **ordinal variables**, there is a clear ordering of the variables. Here the order matters but not the difference between values. The order of the values is important and significant. For example, suppose we have a variable economic status with three categories - low, medium and high. In this example, we classify people into three categories. Also, we order the categories as low, medium and high. So, the categories express an order of measurement. Ordinal scales are measures of non-numeric concepts like satisfaction and happiness. It is easy to remember because it sounds like ordering into different categories. If these categories were equally spaced, then that variable would be an **interval variable**.
 
 
 ### Interval variable
 
 
-An interval variable is similar to an ordinal variable, except that the intervals between the values of the interval variable are equally spaced. Interval scales are numeric scales in which we know both the order and the exact differences between the values. The difference between two interval variables is measurable and constant. The example of an interval scale is Celsius temperature because the difference between each value is the same.  For example, the difference between 60 and 50 degrees is a measurable 10 degrees, as is the difference between 80 and 70 degrees. 
+An **interval variable** is similar to an **ordinal variable**, except that the intervals between the values of the interval variable are equally spaced. Interval scales are numeric scales in which we know both the order and the exact differences between the values. The difference between two **interval variables** is measurable and constant. The example of an interval scale is Celsius temperature because the difference between each value is the same.  For example, the difference between 60 and 50 degrees is a measurable 10 degrees, as is the difference between 80 and 70 degrees. 
 
 
 ### Ratio variable
 
 
-A ratio variable, has all the properties of an interval variable, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable. Variables like height, weight, enzyme activity are ratio variables. Temperature, expressed in F or C, is not a ratio variable. A ratio variable, has all the properties of an interval variable, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable. Variables like height, weight, enzyme activity are ratio variables. Temperature, expressed in F or C, is not a ratio variable. 
+A **ratio variable**, has all the properties of an **interval variable**, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable. Variables like height, weight, enzyme activity are **ratio variables**. Temperature, expressed in F or C, is not a ratio variable. A **ratio variable**, has all the properties of an **interval variable**, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable. Variables like height, weight, enzyme activity are **ratio variables**. Temperature, expressed in F or C, is not a **ratio variable**. 
 
 =================================================================================
 
