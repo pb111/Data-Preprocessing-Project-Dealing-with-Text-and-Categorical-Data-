@@ -22,7 +22,7 @@ In this project, I discuss various data preprocessing techniques to deal with te
       • Ratio variable
       
       
-3.	Source dataset
+3.	Example dataset
 
 4.	Encoding class labels with LabelEncoder
 
