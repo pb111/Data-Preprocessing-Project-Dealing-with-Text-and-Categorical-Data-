@@ -60,7 +60,7 @@ The process of converting text data into numbers consists of two steps. First, t
 The **Scikit-Learn** library provides useful classes like **LabelEncoder**, **OneHotEncoder**, **LabelBinarizer**, **DictVectorizer**, **CountVectorizer** etc. to perform **tokenization** and **vectorization**. In this project, I will explore these classes and the process of encoding text and categorical labels into numerical values.
 
 
-================================================================================
+===============================================================================
 
 ## 2. Types of data variable
 
@@ -90,7 +90,7 @@ An **interval variable** is similar to an **ordinal variable**, except that the 
 
 A **ratio variable**, has all the properties of an **interval variable**, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable. Variables like height, weight, enzyme activity are **ratio variables**. Temperature, expressed in F or C, is not a ratio variable. A **ratio variable**, has all the properties of an **interval variable**, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable. Variables like height, weight, enzyme activity are **ratio variables**. Temperature, expressed in F or C, is not a **ratio variable**. 
 
-================================================================================
+===============================================================================
 
 ## 3. Example dataset
 
@@ -128,7 +128,7 @@ The fit_transform method is just a shortcut for calling fit and transform separa
 
 `array([‘x1’, ‘x2’, ‘x3’] , dtype = object)`
 
-================================================================================
+===============================================================================
 
 
 ## 5. Encoding categorical integer labels with OneHotEncoder
