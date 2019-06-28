@@ -98,7 +98,7 @@ A **ratio variable**, has all the properties of an **interval variable**, and al
 I create an example dataset to illustrate various techniques to deal with the text and categorical data. The example dataset is about Grand Slam Tennis tournaments. The dataset contains five columns describing the Grand Slam title, host country, surface type, court speed and prize money in US Dollars Millions associated with the tournaments.
 
 
-================================================================================
+===============================================================================
 
 ## 4. Encoding class labels with LabelEncoder
 
