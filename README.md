@@ -1,10 +1,11 @@
 # Data Preprocessing Project - Dealing with Text and Categorical data
 
 
-In this project, I discuss various data preprocessing techniques to deal with text and categorical data. The contents of this project are categorized into various sections which are listed below:-
-
+===============================================================================
 
 ## Table of Contents
+
+In this project, I discuss various data preprocessing techniques to deal with text and categorical data. The contents of this project are categorized into various sections which are listed below:-
 
 
 1.	Introduction
