@@ -1,6 +1,7 @@
 # Data Preprocessing Project - Dealing with Text and Categorical data
 
-
+In this project, I discuss various Scikit-learn classes to deal with text and categorical data. The classes are LabelEncoder, OneHotEncoder, LabelBinarizer, DictVectorizer, CountVectorizer, TfidfVectorizer and TfidfTransformer. I also discuss **tokenization** and **vectorization**.
+       
 ===============================================================================
 
 ## Table of Contents
