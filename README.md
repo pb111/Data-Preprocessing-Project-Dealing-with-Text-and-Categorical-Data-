@@ -128,7 +128,7 @@ The fit_transform method is just a shortcut for calling fit and transform separa
 
 `array([‘x1’, ‘x2’, ‘x3’] , dtype = object)`
 
-===============================================================================
+==============================================================================
 
 
 ## 5. Encoding categorical integer labels with OneHotEncoder
@@ -188,7 +188,7 @@ Another way which is more convenient is to create those dummy features via one-h
 
 `pd.get_dummies([[‘x1’, ‘x2’, ‘x3’]])`
 
-================================================================================
+===============================================================================
 
 
 ## 6. Encode multi-class labels to binary labels with LabelBinarizer
@@ -213,7 +213,7 @@ The following code transform y into binary labels using LabelBinarizer
 This returns a dense NumPy array by default. We can get a sparse matrix by passing sparse_output = True to the LabelBinarizer constructor.
 
 
-================================================================================
+===============================================================================
 
 
 ## 7. Encoding list of dictionaries with DictVectorizer
@@ -257,7 +257,7 @@ To see the meaning of each column, we can inspect the feature names as follows:-
 `[‘foo1 =  x1’, ‘foo2 = x2’, ‘foo3 = x3’]`
 
 
-================================================================================
+===============================================================================
 
 
 ## 8. Converting text document to word count vectors with CountVectorizer
@@ -295,7 +295,7 @@ We can inspect the feature names and view the transformed data as follows:-
 
 `print(data.toarray())`
 
-================================================================================
+===============================================================================
 
 
 ## 9. Converting text document to word frequency vectors with TfidfVectorizer
@@ -334,7 +334,7 @@ View feature names with the following code
 `print(vec.get_feature_names())`
 
 
-================================================================================
+===============================================================================
 
 
 ## 10. Transforming a counted matrix to normalized tf-idf representation with TfidfTransformer
@@ -357,7 +357,7 @@ We can calculate inverse document frequencies (idf) as follows:-
 
 `print(X_tft.toarray())`
 
-================================================================================
+===============================================================================
 
 ## 11. Handling missing values of categorical variables
 
@@ -375,7 +375,7 @@ In the previous project, we have seen the methods to deal with the missing numer
 
 5.	Treat missing data as just another category
 
-================================================================================
+===============================================================================
 
 
 ## 12. References
