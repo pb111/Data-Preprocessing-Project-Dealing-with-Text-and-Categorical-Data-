@@ -1,6 +1,4 @@
-# Data Preprocessing Project 
-
-# Dealing with Text and Categorical data
+# Data Preprocessing Project - Dealing with Text and Categorical data
 
 
 In this project, I discuss various data preprocessing techniques to deal with text and categorical data. The contents of this project are categorized into various sections which are listed below:-
@@ -43,7 +41,7 @@ In this project, I discuss various data preprocessing techniques to deal with te
 12.	References
 
 
-=================================================================================
+================================================================================
 
 
 ## 1. Introduction
@@ -61,7 +59,7 @@ The process of converting text data into numbers consists of two steps. First, t
 The **Scikit-Learn** library provides useful classes like **LabelEncoder**, **OneHotEncoder**, **LabelBinarizer**, **DictVectorizer**, **CountVectorizer** etc. to perform **tokenization** and **vectorization**. In this project, I will explore these classes and the process of encoding text and categorical labels into numerical values.
 
 
-=================================================================================
+================================================================================
 
 ## 2. Types of data variable
 
@@ -91,7 +89,7 @@ An **interval variable** is similar to an **ordinal variable**, except that the 
 
 A **ratio variable**, has all the properties of an **interval variable**, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable. Variables like height, weight, enzyme activity are **ratio variables**. Temperature, expressed in F or C, is not a ratio variable. A **ratio variable**, has all the properties of an **interval variable**, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable. Variables like height, weight, enzyme activity are **ratio variables**. Temperature, expressed in F or C, is not a **ratio variable**. 
 
-=================================================================================
+================================================================================
 
 ## 3. Example dataset
 
@@ -99,7 +97,7 @@ A **ratio variable**, has all the properties of an **interval variable**, and al
 I create an example dataset to illustrate various techniques to deal with the text and categorical data. The example dataset is about Grand Slam Tennis tournaments. The dataset contains five columns describing the Grand Slam title, host country, surface type, court speed and prize money in US Dollars Millions associated with the tournaments.
 
 
-=================================================================================
+================================================================================
 
 ## 4. Encoding class labels with LabelEncoder
 
@@ -129,7 +127,7 @@ The fit_transform method is just a shortcut for calling fit and transform separa
 
 `array([‘x1’, ‘x2’, ‘x3’] , dtype = object)`
 
-=================================================================================
+================================================================================
 
 
 ## 5. Encoding categorical integer labels with OneHotEncoder
@@ -189,7 +187,7 @@ Another way which is more convenient is to create those dummy features via one-h
 
 `pd.get_dummies([[‘x1’, ‘x2’, ‘x3’]])`
 
-=================================================================================
+================================================================================
 
 
 ## 6. Encode multi-class labels to binary labels with LabelBinarizer
@@ -214,8 +212,7 @@ The following code transform y into binary labels using LabelBinarizer
 This returns a dense NumPy array by default. We can get a sparse matrix by passing sparse_output = True to the LabelBinarizer constructor.
 
 
-=================================================================================
-
+================================================================================
 
 
 ## 7. Encoding list of dictionaries with DictVectorizer
@@ -259,7 +256,7 @@ To see the meaning of each column, we can inspect the feature names as follows:-
 `[‘foo1 =  x1’, ‘foo2 = x2’, ‘foo3 = x3’]`
 
 
-=================================================================================
+================================================================================
 
 
 ## 8. Converting text document to word count vectors with CountVectorizer
@@ -297,7 +294,7 @@ We can inspect the feature names and view the transformed data as follows:-
 
 `print(data.toarray())`
 
-=================================================================================
+================================================================================
 
 
 ## 9. Converting text document to word frequency vectors with TfidfVectorizer
@@ -336,7 +333,7 @@ View feature names with the following code
 `print(vec.get_feature_names())`
 
 
-=================================================================================
+================================================================================
 
 
 ## 10. Transforming a counted matrix to normalized tf-idf representation with TfidfTransformer
@@ -359,7 +356,7 @@ We can calculate inverse document frequencies (idf) as follows:-
 
 `print(X_tft.toarray())`
 
-=================================================================================
+================================================================================
 
 ## 11. Handling missing values of categorical variables
 
@@ -377,7 +374,7 @@ In the previous project, we have seen the methods to deal with the missing numer
 
 5.	Treat missing data as just another category
 
-=================================================================================
+================================================================================
 
 
 ## 12. References
